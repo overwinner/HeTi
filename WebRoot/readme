@@ -1,0 +1,6 @@
+2017-11-24 update
+完成 第一次点击开始， 输出数据到页面。
+USE DataDownUtil.java--->data.jsp--->index.jsp
+jar(HeTi1\WebRoot\js\jquery-3.2.1.min.js
+HeTi1\WebRoot\WEB-INF\lib\jsoup-1.6.1.jar
+)
