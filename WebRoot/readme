@@ -4,3 +4,22 @@ USE DataDownUtil.java--->data.jsp--->index.jsp
 jar(HeTi1\WebRoot\js\jquery-3.2.1.min.js
 HeTi1\WebRoot\WEB-INF\lib\jsoup-1.6.1.jar
 )
+
+2017-11-24-2 update
+完成 Excel的新建并把数据输入到Excel内。
+USE ExcelUtil.java--->data.jsp
+jar(HeTi1\WebRoot\WEB-INF\lib\jxl.jar
+)
+
+2017-11-24-3 update
+修改Excel表，增加列主位置、次位置、是否借出、借出人、借出日期、归还信息、特殊备注。
+主位置为增加属性
+次位置为增加属性
+是否借出为增加属性
+借出人为增加属性
+特殊备注为增加属性
+
+
+
+
+

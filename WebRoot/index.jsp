@@ -65,6 +65,8 @@
 							"<p>第 "+(i+1)+" 个 BorrowDate: "+jdata[i].BorrowDate+"</p>"+
 							"</div>";
 					}
+					//添加下载选项
+					html += "<a href='/ExcelExport/lenovo_mmweb.xls'>download</a>";
 					//填充内容
 					$(".i-con").html(html);
 					//数据解析成功
@@ -74,6 +76,10 @@
 		});
 	});
 </script>
+<%
+String path = request.getRealPath("/")+"lenovo_mmweb.xls";
+out.println("生成*.xls的路径:    "+path);
+%>
 	</body>
 </html>
 
